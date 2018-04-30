@@ -5,7 +5,7 @@ DEFAULT_JAVASCRIPT = """
 <script>var slideshow = remark.create({ratio: '16:9', slideNumberFormat: '(%current%/%total%)', countIncrementalSlides: false, highlightLines: true});</script>"""
 
 def generate_html(template_html, slide_markdown, stylesheet_html, title=None):
-    """ Generate HTML for a Reveal.js presentation given a template_html,
+    """ Generate HTML for a remarkjs presentation given a template_html,
     slide_markdown contents, and stylesheet_html. """
 
     # only support inline css for now, maybe links in the future
